@@ -22,7 +22,7 @@ defmodule Parambo.MixProject do
   defp deps do
     [
       {:credo, "~> 1.5.6", only: [:dev, :test], runtime: false},
-      {:ecto, "~> 3.7.1"}
+      {:ecto, ">= 3.0.0"}
     ]
   end
 end
